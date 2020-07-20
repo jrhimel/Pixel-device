@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The Pixel Experience Project
+# Copyright (C) 2019 ShapeShift-OS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,8 +16,7 @@
 
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
-# Inherit some common Pixel Experience stuff.
-TARGET_GAPPS_ARCH := arm64
+# Inherit some common ShapeShift-OS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := santoni
@@ -28,11 +27,11 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Official
-export export PixelExperience_BUILD_TYPE=Official
+export ShapeShift-OS_BUILD_TYPE=Official
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pixelexperience.maintainer=JubayerHimel
+    ro.shapeshift.maintainer=JubayerHimel
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
