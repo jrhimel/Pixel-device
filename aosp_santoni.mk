@@ -27,7 +27,7 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Official
-export ShapeShift-OS_BUILD_TYPE=Official
+export export ShapeShift-OS_BUILD_TYPE=Official
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
