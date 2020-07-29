@@ -27,7 +27,7 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Official
-export export CORVUS_BUILD_TYPE=Official
+DU_BUILD_TYPE=OFFICIAL
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
