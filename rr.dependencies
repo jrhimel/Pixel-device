@@ -1,0 +1,20 @@
+[
+ {
+   "repository": "jrhimel/Pixel-device",
+   "target_path": "device/xiaomi/santoni",
+   "branch": "rr",
+   "remote": "github"
+ },
+ {
+   "repository": "jrhimel/k4.9",
+   "target_path": "kernel/xiaomi/msm8937",
+   "branch": "treble",
+   "remote": "github"
+ },
+ {
+   "repository": "jrhimel/Pixel-vendor",
+   "target_path": "vendor/xiaomi",
+   "branch": "ten",
+   "remote": "github"
+ }
+]
