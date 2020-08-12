@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The Pixel Experience Project
+# Copyright (C) 2019 RR Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,19 +16,18 @@
 
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
-# Inherit some common Pixel Experience stuff.
-TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4
-PRODUCT_NAME := aosp_santoni
+PRODUCT_NAME := rr_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Official
-export export PixelExperience_BUILD_TYPE=Official
+export export RR_BUILD_TYPE=Unofficial
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
