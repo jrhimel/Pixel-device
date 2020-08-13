@@ -27,11 +27,11 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Official
-export export RR_BUILD_TYPE=Unofficial
+RR_BUILDTYPE := OFFICIAL
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pixelexperience.maintainer=JubayerHimel
+    ro.RR.Maintainer=JubayerHimel
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
