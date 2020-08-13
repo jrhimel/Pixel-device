@@ -8,7 +8,7 @@
  {
    "repository": "jrhimel/viper-kernel",
    "target_path": "kernel/xiaomi/msm8937",
-   "branch": "treble",
+   "branch": "master",
    "remote": "github"
  },
  {
