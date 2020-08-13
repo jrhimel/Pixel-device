@@ -6,7 +6,7 @@
    "remote": "github"
  },
  {
-   "repository": "jrhimel/k4.9",
+   "repository": "jrhimel/viper-kernel",
    "target_path": "kernel/xiaomi/msm8937",
    "branch": "treble",
    "remote": "github"
