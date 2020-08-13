@@ -28,10 +28,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # Official
 RR_BUILDTYPE := OFFICIAL
-
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.RR.Maintainer=JubayerHimel
+TARGET_MAINTAINER := JubayerHimel
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
