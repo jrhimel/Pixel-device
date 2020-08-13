@@ -25,6 +25,7 @@ PRODUCT_MODEL := Redmi 4
 PRODUCT_NAME := rr_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Official
 export export RR_BUILD_TYPE=Official
