@@ -25,14 +25,10 @@ PRODUCT_MODEL := Redmi 4
 PRODUCT_NAME := rr_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
+
+# RR Stuffs
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Official
-export export RR_BUILD_TYPE=Official
-
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.RR.maintainer=JubayerHimel
+RR_BUILDTYPE := Official
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
